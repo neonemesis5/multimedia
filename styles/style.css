@@ -1,0 +1,72 @@
+@charset "utf-8";
+/**
+http://jigsaw.w3.org/css-validator/
+http://www.w3.org/TR/WCAG10-CSS-TECHS/
+http://www.colorzilla.com/gradient-editor/
+http://gradients.glrzad.com/
+
+
+**codigo para centrar**
+
+http://jsfiddle.net/CatChen/VGpdv/4/
+*/
+*{
+	padding:0;
+	margin:0;	
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+background: #5b1715; /* Old browsers */
+background: -moz-linear-gradient(top,  #5b1715 1%, #a31e1a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#5b1715), color-stop(100%,#a31e1a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #5b1715 1%,#a31e1a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #5b1715 1%,#a31e1a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #5b1715 1%,#a31e1a 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #5b1715 1%,#a31e1a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b1715', endColorstr='#a31e1a',GradientType=0 ); /* IE6-9 */
+
+}
+/**
+
+body {
+	
+background: #5b1715; /* Old browsers */
+/*background: -moz-linear-gradient(top,  #5b1715 1%, #a31e1a 100%); /* FF3.6+ */
+/*background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#5b1715), color-stop(100%,#a31e1a)); /* Chrome,Safari4+ */
+/*background: -webkit-linear-gradient(top,  #5b1715 1%,#a31e1a 100%); /* Chrome10+,Safari5.1+ */
+/*background: -o-linear-gradient(top,  #5b1715 1%,#a31e1a 100%); /* Opera 11.10+ */
+/*background: -ms-linear-gradient(top,  #5b1715 1%,#a31e1a 100%); /* IE10+ */
+/*background: linear-gradient(to bottom,  #5b1715 1%,#a31e1a 100%); /* W3C */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b1715', endColorstr='#a31e1a',GradientType=0 ); /* IE6-9 */
+
+
+	/*background-repeat: no-repeat;
+	/*margin: 0 auto;	
+	/*min-height:768px;
+	/*min-width:1024px;
+}
+*/
+div.parent {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+   /* top: 50%;*/
+}
+div.child {
+    width: 100px;
+    margin-left: -50%;
+    /*margin-top: -50%;*/
+    border: 1px solid #000;
+}
+#header{
+	
+	height:348px;	
+}

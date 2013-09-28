@@ -1,0 +1,96 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	
+}
+
+#slide{
+	position: absolute;
+	top: 70px;
+	margin-left: 270px;
+	width: 760px;
+	height: 230px;
+	background-color: #D3D3D3;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	box-shadow: 1px 1px 4px #000000;
+	opacity: .10;
+}
+
+/*#mosaic-slideshow{*/
+	/* The slideshow container div */
+	/*position: absolute;
+	top: 70px;
+	margin-left: 270px;
+	height:210px;
+	width:740px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}*/
+
+.mosaic-slide{
+	/* This class is shared between all the slides */
+	position: absolute;
+	top: 80px;
+	margin-left: 282px;
+	height:210px;
+	width:740px;
+	
+	/* CSS3 rounded corners */
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+.tile{
+	/* The individual tiles */
+	width: 740px;
+	height: 210px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+.arrow{
+	/* The prev/next arrows */
+	width: 45px;
+	height: 96px;
+	background:url("imagenes/arrows.png") no-repeat;
+	position:absolute;
+	cursor:pointer;
+	margin-left: 237px;
+	opacity: .50;
+}
+
+.arrow.left{
+	top: 130px;
+	margin-left:1022px;
+	background-position:top -50px left;
+}
+
+.arrow.left:hover{
+	background-position:left bottom -54px;
+}
+
+.arrow.right{
+	top: 130px;
+	background-position:top -50px right;
+}
+
+.arrow.right:hover{
+	background-position:right bottom -54px;
+}
+
+.clear{
+	/* This class clears the floats */
+	clear:both;
+}

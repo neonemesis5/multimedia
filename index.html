@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="sp">
+<html lang="es">
     <head>
         <meta charset="utf-8" />
 
         <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
-        Remove this if you use the .htaccess -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+Remove this if you use the .htaccess -->
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
         <title>CONO SUR PIZZA </title>
         <meta name="description" content="" />
@@ -15,11 +15,26 @@
         <link rel="stylesheet" href="styles/style.css" type="text/css">
 
         
-        <!--------SCRIPTS---->
+        <!--SCRIPTS-->
 
         <script type="text/javascript" src="scripts/jquery.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-        <script  src="scripts/script.js"></script>
+   
+        <script src="scripts/script.js"></script>   
+          <script type="text/javascript">
+	
+        $(document).ready(function() {        
+            
+           $('#menup').click(function(){
+				$("#contenido").load('menup.html');
+				/*$("#side1").load('s2.php');/**/
+				
+         });/**/
+		 
+			
+        });
+		
+	</script>
+        
     </head>
     <body>
         <h1>CONO SUR PIZZAS</h1>
@@ -42,28 +57,28 @@
         <nav>
             <ul>
                 <li><a href="index.html"><div id="conocenos"></div><div class="menuitem2">Conocénos</div></a></li>
-                <li><a href="#"><div id="menuu"></div><div class="menuitem2">Menú</div></a></li>
-                <li><a href="#"><div id="contactanos" ></div><div class="menuitem2">Contáctanos</div></a></li>
-                <li><a href="#"><div id="sugerencias" ></div><div class="menuitem2">Sugerencias</div></a></li>
+                <li><a href="#" id="menup"><div id="menuu"></div><div class="menuitem2">Menú</div></a></li>
+                <li><a href="#" id="contacto"><div id="contactanos" ></div><div class="menuitem2">Contáctanos</div></a></li>
+                <li><a href="#" id="sugerencia"><div id="sugerencias" ></div><div class="menuitem2">Sugerencias</div></a></li>
             </ul>
         </nav>
-        <section>
-            <!------ este es el contenido que se cambiara por ajax---->
-            <div id="tituloprin">  <h2>Conocénos</h2> </div>
+        <section id="contenido">
+            <!-- este es el contenido que se cambiara por ajax-->
+            <div id="tituloprin"> <h2>Conocénos</h2> </div>
             <div id=texto>
                 <article>
-                    <h3>      ¿Quiénes Somos?</h3>
-                    <p>                                   Somos un grupo de personas dedicadas al descubrimiento de nuevos e interesantes sabores y presentaciones con la finalidad de dar a nuestros comenzales una experiencia unica.</p></article>
+                    <h3> ¿Quiénes Somos?</h3>
+                    <p> Somos un grupo de personas dedicadas al descubrimiento de nuevos e interesantes sabores y presentaciones con la finalidad de dar a nuestros comenzales una experiencia unica.</p></article>
                 <article>
-                    <h3>  Misión</h3>
-                    <p>   Expresar en cada atencion y entrega, nuestra adnegada dedicacion a nuestra distinguida clientela asegurandoles dia a dia un producto saludable de maxima calidad en sus diferentes presentaciones y a unos excelentes precios.
+                    <h3> Misión</h3>
+                    <p> Expresar en cada atencion y entrega, nuestra adnegada dedicacion a nuestra distinguida clientela asegurandoles dia a dia un producto saludable de maxima calidad en sus diferentes presentaciones y a unos excelentes precios.
                     </p></article>
 
             </div>
             <div id="foto">
 
             </div>
-            <!---fin del contenido dinamico-->
+            <!--fin del contenido dinamico-->
 
 
         </section>
@@ -78,24 +93,25 @@
 
                     <div id="combo" class="imagen"> </div>
 
-                    <div id="promocion" class="imagen"> </div>   
+                    <div id="promocion" class="imagen"> </div>
                 </div>
                 <div id="fder">
                     <div id="redes">
-                        <div  class="fredes">
-                            <a id="" href="#"> <div id="facebook">Síguenos en Facebook</div></a> </div>
-                        <div  class="fredes"><a id="" href="#"><div id="twitter">Síguenos en Twitter</div></a></div>
+                        <div class="fredes">
+                            <a  href="#"> <div id="facebook">Síguenos en Facebook</div></a> </div>
+                        <div class="fredes"><a  href="#"><div id="twitter">Síguenos en Twitter</div></a></div>
                     </div>
                     <div id="nav2">
                         <ul>
                             <li><a href="#">Conócenos</a></li>
                             <li><a href="#">Menú</a></li>
+
                             <li><a href="#">Contáctanos</a></li>
                             <li><a href="#">Sugerencias</a></li>
                         </ul>
                     </div>
                 </div>
-            </div>        
+            </div>
         </footer>
     </body>
 </html>

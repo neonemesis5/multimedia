@@ -700,7 +700,7 @@ div #descprod{
 }
 div #botones{
 	/*background-color:grey;*/
-	height:60px;
+	height:40px;
 	width:290px;
 	margin:0 auto;
 	text-align:center;
@@ -740,9 +740,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b2423', end
 	font-weight:bold;
 	margin:0 auto;
 	vertical-align:top;
-	padding-top:15px;/**/
+	/*padding-top:15px;/**/
 	height:40px;
-	width:100px;
+	width:110px;
 	
 	/*background-color:#03F;*/
 }
@@ -750,6 +750,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b2423', end
 
 div #btnvorden{
 	margin-right:10px;
+	
 }
 div #btncompa{
 	margin-left:10px;

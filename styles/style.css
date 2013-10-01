@@ -51,7 +51,7 @@ header{
     margin-top: 22px;
     height: 350px;
     width: 1024px;	
-    /*background-color:#69F;*/
+    /*background-color:#69F;/**/
 }
 #logo,#contentop,#bannertop,#eslogan,#marco{/*****,#opcsup*/
     display: inline-block;
@@ -283,6 +283,9 @@ nav ul li:hover{
     width: 150px;
     height: 100px;	
     margin-top: -5px;	
+	position:relative;
+	z-index:5;
+
 }
 
 nav ul li:focus{
@@ -293,7 +296,7 @@ nav ul li:focus{
     border-radius: 10px 10px;
     width: 150px;
     height: 100px;	
-    margin-top: -5px;	
+    margin-top: -5px;
 }
 
 nav ul li a:focus{

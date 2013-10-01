@@ -272,6 +272,7 @@ nav ul li{
     display: inline-block;
     vertical-align: top;
     width: 150px;
+	/*filter: Shadow(Color=black, Direction=130, Strength=3); /* IE Proprietary Filter*/
 
 }
 nav ul li:hover{
@@ -341,7 +342,8 @@ nav ul li a{
 
 
 /**************************CONTENIDO *****************************************/
-
+/*generador de texshadow*/
+/**********http://css3gen.com/text-shadow/****************************/
 
 section{
 
@@ -380,7 +382,7 @@ h2{
     filter: Shadow(Color=black, Direction=130, Strength=3); /* IE Proprietary Filter*/
 }
 
-article h3{
+div article h3{
     font-family:"snap";
     font-size:20px;
     color:rgb(255,255,255);

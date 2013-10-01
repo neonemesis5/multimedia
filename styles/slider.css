@@ -22,9 +22,9 @@ body{
 	opacity: .10;
 }
 
-#mosaic-slideshow{
+/*#mosaic-slideshow{
 	/* The slideshow container div */
-	position: absolute;
+	/*position: absolute;
 	top: 70px;
 	margin-left: 270px;
 	height:210px;
@@ -33,7 +33,7 @@ body{
 	border-bottom-right-radius: 12px;
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
-}
+}*/
 
 .mosaic-slide{
 	/* This class is shared between all the slides */

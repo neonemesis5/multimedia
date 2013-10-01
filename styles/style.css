@@ -336,7 +336,7 @@ section{
     text-align:center;
     margin:0px auto;
     position:absolute;
-    top:460px;
+    margin-top:470px;
     z-index:3;/**/
 
 }
@@ -438,7 +438,7 @@ footer{
     background-color:transparent;
     left:0;
     position:absolute;
-    top:990px;
+    margin-top:1010px;
     z-index:2;/**/
 }
 

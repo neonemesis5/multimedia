@@ -226,8 +226,10 @@ nav{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dac1bf', endColorstr='#d5b090',GradientType=1 ); /* IE6-9 */
 
 
-
-
+  position:absolute;
+    margin-top:370px;
+    z-index:4;/**/
+ height:90px;/**/
     /*color:rgb(255,255,255);*/
     /*text-shadow: 2px 1px 1px rgba(0,0,0,1);/* 4 valores (1.- distancia en el eje x) (2.- distancia en el eje Y) (3.- el blur o nivel de desenfoque) (4.- el color de la sombra )*/
 
@@ -740,7 +742,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b2423', end
 	font-weight:bold;
 	margin:0 auto;
 	vertical-align:top;
-	/*padding-top:15px;/**/
+	padding-top:10px;/**/
 	height:40px;
 	width:110px;
 	

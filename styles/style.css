@@ -2,21 +2,21 @@
 /*****************************PROPIEDADES GENERALES DE LA PAGINA****************************************/
 
 *{
-    padding: 0;
-    margin: 0 auto;
+    padding: 0px;
+    margin: 0px auto;
     list-style: none;
     text-align: center;
     text-decoration: none;
     border: none;
-    left:0;
-    top:0;
-    bottom: 0;
-    right: 0;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
 
 }
 @font-face{
     font-family: Snap;
-    src:url(../fonts/snap.otf),url(../fonts/snap.eot),url(../fonts/snap.ttf),url(../fonts/snap.svg);
+    src: url(../fonts/snap.otf),url(../fonts/snap.eot),url(../fonts/snap.ttf),url(../fonts/snap.svg);
     /* src: url('Sansation_Light.ttf'),
 url('Sansation_Light.eot'); /* IE9 */
 }
@@ -32,25 +32,25 @@ http://onlinefontconverter.com/
 
 
 h1{
-    display:none;	
+    display: none;	
 }
 a:link,a:hover,a:visited,a:active {
 
-    color:rgb(255,255,255);
+    color: rgb(255,255,255);
 }
 /*****************************FONDO DE LA PAGINA************************/
 body {
-    background-color:rgb(163,30,26);/**/
-    background-image:url(../img/generales/fondo.png);
-    background-repeat:repeat-x;
+    background-color: rgb(163,30,26);/**/
+    background-image: url(../img/generales/fondo.png);
+    background-repeat: repeat-x;
     /*z-index:0;/**/
 }
 
 /****************************CABECERA DE LA PAGINA*********************************/
 header{	
-    margin-top:22px;
-    height:350px;
-    width:1024px;	
+    margin-top: 22px;
+    height: 350px;
+    width: 1024px;	
     /*background-color:#69F;*/
 }
 #logo,#contentop,#bannertop,#eslogan,#marco{/*****,#opcsup*/
@@ -61,17 +61,18 @@ header{
 
 }/**/
 #logo{
-    background-image: url(../img/generales/NUEVOLOGO2.jpg);/**/
-    background-repeat:no-repeat;
-    height:101px;
-    width:222px;	
-    margin-top:100px;
+    background-image: url(../img/generales/Logo2.png);/**/
+    background-repeat: no-repeat;
+    height: 109px;
+    width: 255px;	
+    margin-top: 100px;
+    margin-left: -25px;
 }
 #contentop{
 
     /*background-color:#099;*/
-    height:350px;
-    width:790px;
+    height: 350px;
+    width: 790px;
 
 }
 #opcsup{
@@ -82,11 +83,11 @@ header{
 #bannertop{
 
 
-    height:230px;
-    width:760px;/**/
-    text-align:center;
-    margin:0 auto;
-    vertical-align:top;
+    height: 230px;
+    width: 760px;/**/
+    text-align: center;
+    margin: 0px auto;
+    vertical-align: top;
 
 
 }
@@ -102,19 +103,19 @@ header{
     background: -ms-linear-gradient(left, #c6a3b2 0%,#c6a3b2 100%); /* IE10+ */
     background: linear-gradient(to right, #c6a3b2 0%,#c6a3b2 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6a3b2', endColorstr='#c6a3b2',GradientType=1 ); /* IE6-8 */
-    opacity: 0.8;/**/
-    background-color:transparent;/**/
-    border-radius:12px;
-    box-shadow:1px 1px 4px black;
-    height:230px;
-    width:760px;
+    opacity: 0.40;/**/
+    background-color: transparent;/**/
+    border-radius: 12px;
+    box-shadow: 1px 1px 4px black;
+    height: 230px;
+    width: 760px;
 
-    position:absolute;
-    text-align:center;
-    margin:0 auto;
-    margin-left:365px;
-    margin-top:60px;	
-    vertical-align:top;
+    position: absolute;
+    text-align: center;
+    margin: 0px auto;
+    margin-left: 385px;
+    margin-top: 60px;	
+    vertical-align: top;
 }
 
 
@@ -123,14 +124,14 @@ header{
     /*position: absolute;/**/
     /*top: 80px;/**/
     /*margin-left: 282px;*/
-    height:210px;
-    width:760px;
-    position:absolute;
-    border-radius:12px;
-    text-align:center;
-    margin:0 auto;
-    margin-left:374px;
-    margin-top:70px;	
+    height: 210px;
+    width: 740px;
+    position: absolute;
+    border-radius: 12px;
+    text-align: center;
+    margin: 0px auto;
+    margin-left: 395px;
+    margin-top: 70px;	
 }
 
 
@@ -138,43 +139,43 @@ header{
     /* The individual tiles */
     width: 740px;
     height: 210px;
-    border-radius:12px;
+    border-radius: 12px;
 }
 
 .arrow{
     /* The prev/next arrows */
     width: 45px;
     height: 96px;
-    background:url(../img/generales/arrows.png) no-repeat;	
-    cursor:pointer;
-    margin-left: 330px;/**/
+    background: url(../img/generales/arrows.png) no-repeat;	
+    cursor: pointer;
+    margin-left: 350px;/**/
     margin-top:130px;
     opacity: .50;/**/
-    position:absolute;
-    z-index:4;
+    position: absolute;
+    z-index: 4;
 }
 
 .arrow.left{
 
-    margin-left:1022px;/**/
-    background-position:top -50px left;/**/
+    margin-left: 1135px;/**/
+    background-position: top -50px left;/**/
 }
 
 .arrow.left:hover{
-    background-position:left bottom -54px;/**/
+    background-position: left bottom -54px;/**/
 }
 
 .arrow.right{
-    background-position:top -50px right;/**/
+    background-position: top -50px right;/**/
 }
 
 .arrow.right:hover{
-    background-position:right bottom -54px;/**/
+    background-position: right bottom -54px;/**/
 }
 
 .clear{
     /* This class clears the floats */
-    clear:both;
+    clear: both;
 }
 
 
@@ -183,34 +184,55 @@ header{
 
 
 #eslogan{
-    color:white;	
+    color: white;	
     font-family: Helvetica;
     font-style: italic;
-    font-weight:bolder;
-    font-size: 24px; /*=> 18ptos http://reeddesign.co.uk/test/points-pixels.html*/
+    font-weight: bolder;
+    font-size: 20px; /*=> 18ptos http://reeddesign.co.uk/test/points-pixels.html*/
 
-    display:inline-block;
-    vertical-align:top;
+	margin-left: 30px;
+    display: inline-block;
+    vertical-align: top;
 
 
 }
+
 #marco{
 }
-#btnpedido{
-    background-image:url(../img/botones/btnpedido.png);
-    background-repeat:repeat-x;	
-    border: 1px solid;
-    border-color:black;
-    box-shadow: 2px 2px 4px #000000;	
-    color:white;	
-    font-family:"snap";
-    font-size:18px;
 
-    height:36px;
-    width:216px;
-    display:inline-block;
-    vertical-align:top;
-    margin-left:100px;
+#btnpedido{
+    background-repeat: repeat-x;	
+    border: 1px solid;
+    border-color: black;
+    border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+    box-shadow: 2px 2px 4px #000000;	
+    color: white;	
+    font-family: "snap";
+    font-size: 16px;
+
+	margin-top: -10px;
+	padding-top: 6px;
+    height: 30px;
+    width: 160px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 230px;
+}
+
+div#btnpedido:hover{
+	width: 160px;
+	height: 30px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	box-shadow: 2px 2px 8px #000000;
+	text-shadow: 2px 2px 4px #000000;
+	background-color: #a31e1a;
+	cursor: pointer;
 }
 
 /*************************************MENU********************************/
@@ -226,86 +248,87 @@ nav{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dac1bf', endColorstr='#d5b090',GradientType=1 ); /* IE6-9 */
 
 
-  position:absolute;
-    margin-top:370px;
-    z-index:4;/**/
- height:90px;/**/
+  	position: absolute;
+    margin-top: 370px;
+    z-index: 4px;/**/
+ 	height: 90px;/**/
     /*color:rgb(255,255,255);*/
     /*text-shadow: 2px 1px 1px rgba(0,0,0,1);/* 4 valores (1.- distancia en el eje x) (2.- distancia en el eje Y) (3.- el blur o nivel de desenfoque) (4.- el color de la sombra )*/
 
 }
 nav ul{
     /*background-color:#CCC;/**/
-    height:90px;/**/
+    height: 90px;/**/
 }
 nav ul li{	
-    font-family:"snap";
-    font-size:18px;
+    font-family: "snap";
+    font-size: 18px;
     -moz-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
     -o-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
     -webkit-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
     text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 5px -1px black;	
-    padding-top:10px;
-    margin:0 30px;
-    display:inline-block;
-    vertical-align:top;
-    width:150px;
+    padding-top: 10px;
+    margin: 0px 30px;
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
 
 }
 nav ul li:hover{
 
-    background-color:rgb(116,165,188);
-    border-color:rgb(255,255,255);
-    border-style:solid;
-    border-radius:10px 10px;
-    width:150px;
-    height:100px;	
-    margin-top:-5px;	
+    background-color: rgb(116,165,188);
+    border-color: rgb(255,255,255);
+    border-style: solid;
+    border-radius: 10px 10px;
+    width: 150px;
+    height: 100px;	
+    margin-top: -5px;	
 }
 
 nav ul li:focus{
 
-    background-color:rgb(116,165,188);
-    border-color:rgb(255,255,255);
-    border-style:solid;
-    border-radius:10px 10px;
-    width:150px;
-    height:100px;	
-    margin-top:-5px;	
+    background-color: rgb(116,165,188);
+    border-color: rgb(255,255,255);
+    border-style: solid;
+    border-radius: 10px 10px;
+    width: 150px;
+    height: 100px;	
+    margin-top: -5px;	
 }
 
 nav ul li a:focus{
 
 }
+
 nav ul li a{
 
 }
 /***ICONOS***/
 
 #conocenos,#menuu,#contactanos,#sugerencias{
-    display:inline-block;
-    vertical-align:top;/**/
-    background-repeat:no-repeat;
-    height:53px;
-    width:81px;
+    display: inline-block;
+    vertical-align: top;/**/
+    background-repeat: no-repeat;
+    height: 53px;
+    width: 81px;
 }
 #conocenos{
-    background-image:url(../img/botones/btn1.png);	
+    background-image: url(../img/botones/btn1.png);	
 
 }
 
 #menuu{
-    background-image:url(../img/botones/btn2.png);	
+    background-image: url(../img/botones/btn2.png);	
 
 }
 
 #contactanos{
-    background-image:url(../img/botones/btn3.png);	
+    background-image: url(../img/botones/btn3.png);	
 
 }
 
 #sugerencias{
-    background-image:url(../img/botones/btn4.png);
+    background-image: url(../img/botones/btn4.png);
 }
 
 /**internet explorer*/

@@ -466,7 +466,6 @@ footer{
 
     opacity:0.8;
     background-color:transparent;
-    left:0;
     position:absolute;
     margin-top:1010px;
     z-index:2;/**/
@@ -480,7 +479,7 @@ background-repeat:repeat-y;/**/
     width:1024px;	
 }
 #fizq{
-
+background-color:blue;
     display: inline-block;
     margin: 0 auto;
     vertical-align: top;/**/
@@ -488,16 +487,15 @@ background-repeat:repeat-y;/**/
     width:650px;
 }
 #fder{
-
+background-color:green;
     display: inline-block;
     margin: 0 auto;
     vertical-align: top;/**/
-    height: 298px;
+    height: 200px;
     width:360px;
+    margin-top: 150px;
 }
-.imagen {
-
-
+.imagen {		
     background-image:url(../img/footerfotos/Foto_Jquery2.png) ;
     background-repeat: no-repeat;
     border: 5px solid #a31e1a;
@@ -530,18 +528,20 @@ height: 100px;*/
     height:50px;
     font-size:16px;
     font-family:Helvetica;
+    font-weight:bold;
     line-height:50px;	
 
     color:rgb(101,200,232);
-    padding:20px 0;
-    -moz-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
-    -o-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
-    -webkit-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
-    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 5px -1px black;
+    padding-left:20px;
+ /*   -moz-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
+ /*   -o-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
+ /*   -webkit-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
+/*    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 5px -1px black;
     filter: Shadow(Color=black, Direction=130, Strength=3); /* IE Proprietary Filter*/
 
     height: 38px;
     width: 260px;
+    background-color: peru;
 }
 #facebook{
     background-image:url(../img/redes/face.png);
@@ -551,15 +551,34 @@ height: 100px;*/
     background-image: url(../img/redes/twitter.png);
     background-repeat:no-repeat;
 }
+#nav2 ul{
+	margin-top:30px;
+}
 #nav2 ul li{
     display: inline-block;
     margin: 0 auto;
     vertical-align:top;
     font-family:Arial;
     font-weight:bold;
+    font-size: 14px;
 }
 #nav2 ul li a:hover{
     text-decoration:underline;
+}
+div .divisor2{
+	 display: inline-block;
+    margin: 0 auto;
+    vertical-align:top;
+	height: 15px;
+	width: 2px;
+	background-color: white;	
+}
+#derechos {
+	margin-top:-10px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	
 }
 
 /***********************************MENU IZQUIERDO PAGINA MENUP**********************************/

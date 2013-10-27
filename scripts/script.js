@@ -54,7 +54,7 @@ function transition(id)
 		if(current.id == id) return false;
 		
 		/* Moving the current slide layer to the top: */
-		current.layer.css('z-index',10);
+		current.layer.css('z-index',0);
 		
 		/* Removing all other slide layers that are positioned below */
 		$('.mosaic-slide').not(current.layer).remove();
@@ -64,7 +64,7 @@ function transition(id)
 	var newLayer = $('<div class="mosaic-slide">').html(generateGrid({rows:1,cols:1,image:slides[id-1]}));
 
 	/* Moving it behind the current slide: */
-	newLayer.css('z-index',3);
+	newLayer.css('z-index',0);
 
 	$('#mosaic-slideshow').append(newLayer);
 	

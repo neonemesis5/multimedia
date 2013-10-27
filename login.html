@@ -41,6 +41,12 @@ Remove this if you use the .htaccess -->
 				
           });
          /**/
+        $('#login').click(function(){
+				$("#contenido").load('login.html');
+				/*$("#side1").load('s2.php');/**/
+				
+          });
+         /**/
 		  
 			
         });
@@ -54,7 +60,7 @@ Remove this if you use the .htaccess -->
             <div id="logo"> </div>
                 <div id="opcsup">
                     <div id="eslogan">Cambiando la forma de comer Pizza</div>
-                    <div id="btnpedido" onclick="window.location='login.html';">Pedido en línea</div>
+                    <div id="btnpedido">Pedido en línea</div>
                 </div>
                 
                 <div id="bannertop">
@@ -65,12 +71,8 @@ Remove this if you use the .htaccess -->
                     </div>
                 </div>
         </header>
-        <div id="fconos">
-            <div id="conoizq" class="conos"> </div>
-            <div id="conoder" class="conos"> </div>
-        </div>
         <nav>
-            <ul>
+        	<ul>
                 <li><a href="index.html"><div id="conocenos"> </div><div class="menuitem2">Conocénos</div></a></li>
                 <li><a href="#" id="menup"><div id="menuu"> </div><div class="menuitem2">Menú</div></a></li>
                 <li><a href="#" id="contacto"><div id="contactanos" > </div><div class="menuitem2">Contáctanos</div></a></li>
@@ -78,19 +80,17 @@ Remove this if you use the .htaccess -->
             </ul>
         </nav>
         <section id="contenido">
-            <!-- este es el contenido que se cambiara por ajax-->
+        	<!-- este es el contenido que se cambiara por ajax-->
             <div id="tituloprin"> <h2>Conocénos</h2> </div>
             <div id=texto>
                 <article>
                     <h3> ¿Quiénes Somos?</h3>
-                    <p> Somos un grupo de personas dedicadas al descubrimiento de nuevos e interesantes sabores y presentaciones con la finalidad de dar a nuestros comenzales una experiencia unica.</p>
-                    </article>
+                    <p> Somos un grupo de personas dedicadas al descubrimiento de nuevos e interesantes sabores y presentaciones con la finalidad de dar a nuestros comenzales una experiencia unica.</p></article>
                 <article>
                     <h3> Misión</h3>
                     <p> Expresar en cada atencion y entrega, nuestra adnegada dedicacion a nuestra distinguida clientela asegurandoles dia a dia un producto saludable de maxima calidad en sus diferentes presentaciones y a unos excelentes precios.
-                    </p>
-                    </article>
-
+                    </p></article>
+				
             </div>
             <div id="foto">
 
@@ -99,6 +99,10 @@ Remove this if you use the .htaccess -->
 
 
         </section>
+        <div id="fconos">
+            <div id="conoizq" class="conos"> </div>
+            <div id="conoder" class="conos"> </div>
+        </div>
         <footer>
             <div id="footercentro">
                 <div id="fizq">
@@ -128,5 +132,18 @@ Remove this if you use the .htaccess -->
                 </div>
             </div>
         </footer>
+    	<div id="sesion"> </div>
+    	<div id="cuadro">
+        	<div id="btnpedido2" onclick="window.location='index.html';">Pedido en línea</div>
+        	<div id="cuenta">
+        		<textarea id="usuario">Usuario</textarea>
+        		<textarea id="pass">Contraseña</textarea>
+        		<p>¿Olvido su Contraseña?</p>
+        		<div id="Iniciar">Iniciar Sesión</div>
+        		<div id="registro">
+        			<p>Registrate</p>
+        		</div>
+        	</div>
+        </div>
     </body>
 </html>

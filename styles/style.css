@@ -38,6 +38,158 @@ a:link,a:hover,a:visited,a:active {
 
     color: rgb(255,255,255);
 }
+
+/*****************************SESIÒN************************************/
+
+#sesion{
+	position: absolute;
+	margin: auto top;
+	width: 1263px;
+	height: 1410px;
+	background-color: #000000;
+	opacity: 0.8;
+	z-index: 0;
+}
+
+#btnpedido2{
+	position: absolute;
+	background-color: #a31e1a;
+    border: 1px solid;
+    border-color: black;
+    border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+    box-shadow: 2px 2px 4px #000000;	
+    color: white;	
+    font-family: "snap";
+    font-size: 16px;
+	padding-top: 6px;
+    height: 30px;
+    width: 160px;
+    margin-left: 968px;
+    margin-top: 29px;
+}
+
+div#btnpedido2:hover{
+	width: 160px;
+	height: 30px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	box-shadow: 2px 2px 8px #000000;
+	text-shadow: 2px 2px 4px #000000;
+	background-color: #a31e1a;
+	cursor: pointer;
+}
+
+#cuadro{
+	position: absolute;
+	margin: auto top;
+	width: 1263px;
+	height: 1410px;	
+}
+
+#cuenta{
+	position: absolute;
+	z-index: 1;
+	width: 300px;
+	height: 280px;
+	background-color: #FFFFFF;
+	margin-top: 100px;
+	margin-left: 830px;
+}
+
+#cuenta p{
+	position: absolute;
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	color: #A31E1A;
+	margin-left: -30px;
+	margin-top: 135px;
+}
+
+#usuario{
+	position: absolute;
+	width: 270px;
+	height: 35px;
+	margin-left: 11px;
+	margin-top: 15px;
+	padding-left: 5px;
+	background-color: #a4a4a4;
+	border: 2px solid;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	resize: none;
+	
+	font-family: Helvetica;
+	font-size: 18px;
+	text-align: left;
+	padding-top: 8px;
+}
+
+#pass{
+	position: absolute;
+	width: 270px;
+	height: 35px;
+	margin-left: 11px;
+	margin-top: 75px;
+	padding-left: 5px;
+	background-color: #a4a4a4;
+	border: 2px solid;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	resize: none;
+	
+	font-family: Helvetica;
+	font-size: 18px;
+	text-align: left;
+	padding-top: 8px;	
+}
+
+#Iniciar{
+	position: absolute;
+	background-color: #d39a5a;
+    border: 1px solid;
+    border-color: black;
+    border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+    box-shadow: 2px 2px 4px #000000;	
+    color: white;	
+    font-family: "snap";
+    font-size: 18px;
+	padding-top: 8px;
+    height: 35px;
+    width: 170px;
+    margin-left: 110px;
+    margin-top: 175px;	
+}
+
+#registro{
+	position: absolute;
+	margin-top: 235px;
+	width: 300px;
+	height: 30px;
+	background-color: #C6A3B2;
+}
+
+#registro p{
+	margin-left: 70px;
+	margin-top: 6px;
+	color: #A31E1A;
+	font-family: Helvetica;
+}
+
+
+
 /*****************************FONDO DE LA PAGINA************************/
 body {
     background-color: rgb(163,30,26);/**/
@@ -53,13 +205,7 @@ header{
     width: 1024px;	
     /*background-color:#69F;/**/
 }
-#logo,#contentop,#bannertop,#eslogan,#marco{/*****,#opcsup*/
-    display: inline-block;
-    margin: 0 auto;
-    vertical-align: top;/**/
 
-
-}/**/
 #logo{
     background-image: url(../img/generales/Logo2.png);/**/
     background-repeat: no-repeat;
@@ -68,26 +214,20 @@ header{
     margin-top: 100px;
     margin-left: -25px;
 }
-#contentop{
 
-    /*background-color:#099;*/
-    height: 350px;
-    width: 790px;
-
-}
 #opcsup{
     /*background-color:#FF0;/**/
+   	position: absolute;
+   	width: 1224px;
+   	height: 70px;
 }
 
 /*******************************BANNER TOP SLIDER*****************************/
 #bannertop{
 
-
+	position: relative;
     height: 230px;
     width: 760px;/**/
-    text-align: center;
-    margin: 0px auto;
-    vertical-align: top;
 
 
 }
@@ -112,10 +252,8 @@ header{
 
     position: absolute;
     text-align: center;
-    margin: 0px auto;
-    margin-left: 385px;
-    margin-top: 60px;	
-    vertical-align: top;
+    margin-left: 145px;
+    margin-top: -130px;
 }
 
 
@@ -128,10 +266,8 @@ header{
     width: 740px;
     position: absolute;
     border-radius: 12px;
-    text-align: center;
-    margin: 0px auto;
-    margin-left: 395px;
-    margin-top: 70px;	
+    margin-left: 155px;
+    margin-top: -120px;
 }
 
 
@@ -146,18 +282,17 @@ header{
     /* The prev/next arrows */
     width: 45px;
     height: 96px;
-    background: url(../img/generales/arrows.png) no-repeat;	
+    background: url(../img/generales/arrows.png) no-repeat;
     cursor: pointer;
-    margin-left: 350px;/**/
-    margin-top:130px;
+    margin-left: 110px;/**/
+    margin-top:-60px;
     opacity: .50;/**/
     position: absolute;
-    z-index: 4;
 }
 
 .arrow.left{
 
-    margin-left: 1135px;/**/
+    margin-left: 895px;/**/
     background-position: top -50px left;/**/
 }
 
@@ -190,19 +325,14 @@ header{
     font-weight: bolder;
     font-size: 20px; /*=> 18ptos http://reeddesign.co.uk/test/points-pixels.html*/
 
-	margin-left: 30px;
-    display: inline-block;
-    vertical-align: top;
+	margin-top: 45px;
+	position: relative;
 
 
-}
-
-#marco{
 }
 
 #btnpedido{
-    background-repeat: repeat-x;	
-    border: 1px solid;
+	position:relative;
     border-color: black;
     border-bottom-left-radius: 12px;
 	border-bottom-right-radius: 12px;
@@ -212,14 +342,11 @@ header{
     color: white;	
     font-family: "snap";
     font-size: 16px;
-
-	margin-top: -10px;
 	padding-top: 6px;
     height: 30px;
     width: 160px;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 230px;
+    margin-left: 950px;
+    margin-top: -40px;
 }
 
 div#btnpedido:hover{
@@ -250,7 +377,6 @@ nav{
 
   	position: absolute;
     margin-top: 370px;
-    z-index: 4px;/**/
  	height: 90px;/**/
     /*color:rgb(255,255,255);*/
     /*text-shadow: 2px 1px 1px rgba(0,0,0,1);/* 4 valores (1.- distancia en el eje x) (2.- distancia en el eje Y) (3.- el blur o nivel de desenfoque) (4.- el color de la sombra )*/
@@ -260,7 +386,8 @@ nav ul{
     /*background-color:#CCC;/**/
     height: 90px;/**/
 }
-nav ul li{	
+nav ul li{
+	
     font-family: "snap";
     font-size: 18px;
     -moz-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
@@ -357,8 +484,7 @@ section{
     background: -ms-linear-gradient(left, #c6a3b2 0%,#c6a3b2 100%); /* IE10+ */
     background: linear-gradient(to right, #c6a3b2 0%,#c6a3b2 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6a3b2', endColorstr='#c6a3b2',GradientType=1 ); /* IE6-8 */
-    opacity: 0.8;/**/
-    background-color:transparent;
+    opacity: 0.8;
     width:1024px;
     height:530px;	
 
@@ -367,12 +493,11 @@ section{
     margin:0px auto;
     position:absolute;
     margin-top:470px;
-    z-index:3;/**/
-
 }
+
 h2{
     font-family:"snap";
-    font-size:28px;
+    font-size:36px;
     color:rgb(101,200,232);
     padding:20px 0;
     -moz-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
@@ -393,18 +518,19 @@ div article h3{
     padding:20px 0;
     filter: Shadow(Color=black, Direction=130, Strength=3); /* IE Proprietary Filter*/	
 }
+
 p{
-    font-family:Arial;
-    font-size:18px;
-    padding:0 2em;
-    text-align:justify;
-    color:black;
-	 text-indent: 40px;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: justify;
+    color: white;
+	text-indent: 40px;
 }
 
 #texto{
     height:278px;
     width:560px;
+    margin-top: 20px;
     vertical-align: top;
     display: inline-block;
 
@@ -427,27 +553,27 @@ p{
     vertical-align:top;
     margin-top:880px;/**/
     position:absolute;
-    z-index:1;
    /* background-color: green;/**/
 }
 .conos{
-    display:inline-block;	
-    margin:0 auto;	
-    text-align:center;
-
+    margin:0 auto;
+	position: relative;
     opacity: .40;	
     height: 504px;
     width: 449px;
+    background-repeat: no-repeat;
    /* background-color: blue;/**/
 }
 #conoizq{	
     background-image:url(../img/generales/fondo1.png);
-    margin-right:161px;/**/
+    margin: left 0px;/**/
+   	padding-left: 775px;
 }
 
 #conoder{
     background-image:url(../img/generales/fondo2.png);
-    margin-left:161px;/**/
+   	margin-top: -504px;
+   	margin-left: 775px;
 }
 
 
@@ -469,7 +595,6 @@ footer{
     background-color:transparent;
     position:absolute;
     margin-top:1010px;
-    z-index:2;/**/
 }
 
 #footercentro{
@@ -480,15 +605,12 @@ background-repeat:repeat-y;/**/
     width:1024px;	
 }
 #fizq{
-background-color:blue;
     display: inline-block;
-    margin: 0 auto;
-    vertical-align: top;/**/
     height:350px;
     width:650px;
+    margin-top: 20px;
 }
 #fder{
-background-color:green;
     display: inline-block;
     margin: 0 auto;
     vertical-align: top;/**/
@@ -496,20 +618,50 @@ background-color:green;
     width:360px;
     margin-top: 150px;
 }
-.imagen {		
+
+#clasico{		
     background-image:url(../img/footerfotos/Foto_Jquery2.png) ;
-    background-repeat: no-repeat;
     border: 5px solid #a31e1a;
     border-radius: 5px;
-
-    display: inline-block;
-    margin: 0 auto;
-    margin-left:50px;
-    margin-top:30px;
-    vertical-align: top;/**/
+    margin-left:15px;
+    margin-top:40px;
     width: 133px;
     height: 273px;
 }
+
+#combo{
+	position: relative;		
+    background-image:url(../img/footerfotos/Cono1.png) ;
+    border: 5px solid #a31e1a;
+    border-radius: 5px;
+    margin-left:175px;
+    margin-top:-283px;
+    width: 133px;
+    height: 273px;
+}
+
+#promocion{
+	position: relative;		
+    background-image:url(../img/footerfotos/Cono2.png) ;
+    border: 5px solid #a31e1a;
+    border-radius: 5px;
+    margin-left:335px;
+    margin-top:-283px;
+    width: 133px;
+    height: 273px;
+}
+
+#otro{
+	position: relative;		
+    background-image:url(../img/footerfotos/Cono3.png) ;
+    border: 5px solid #a31e1a;
+    border-radius: 5px;
+    margin-left:495px;
+    margin-top:-283px;
+    width: 133px;
+    height: 273px;
+}
+
 
 /**redes**/
 #redes{
@@ -518,7 +670,6 @@ background-color:green;
 height: 100px;*/
 
     margin:0 auto;
-    vertical-align:top;
 
 
 }
@@ -541,8 +692,7 @@ height: 100px;*/
     filter: Shadow(Color=black, Direction=130, Strength=3); /* IE Proprietary Filter*/
 
     height: 38px;
-    width: 260px;
-    background-color: peru;
+    width: 270px;
 }
 #facebook{
     background-image:url(../img/redes/face.png);
@@ -575,7 +725,8 @@ div .divisor2{
 	background-color: white;	
 }
 #derechos {
-	margin-top:-10px;
+	margin-top:-15px;
+	text-align: right;
 	font-family: Arial;
 	font-size: 12px;
 	font-weight: bold;
@@ -713,6 +864,7 @@ div  h3{
 	font-family:"snap";
 	font-size:28px;
 	margin:0 auto;
+	text-align: left;
 	/*position:relative;
 	top: 20px;*/
 	
@@ -866,59 +1018,91 @@ div #contactoizq h4{
 
 /************************************SUGERENCIAS******************************************/
 
- #contsugerencia{
-	   width:990px;
+#contsugerencia{
+	
+	width:990px;
     height:490px;
 	margin: 0 auto; 
 }
- #contsugerencia p{
+
+#contsugerencia p{
+	
+	width: 900px;
  	font-family: Arial;
  	font-size: 20px;
  	line-height: 1.5em;
  	font-weight: bold;
- 	   text-indent: 0px;
-   
+ 	text-indent: 0px;
 }
 
 #textosugerencia{
 }
+
 #formsugerencia{
+	
 	margin-top: 5px;
 }
-div .tituloscampos{
+
+.tituloscampos{
+	
 	color:white;
 	font-family: Arial;
  	font-size: 20px;
  	line-height: 1.5em;
  	font-weight: bold;
 }
-div .campo{
-	height:30px;
-	width: 350px;
-	margin-left: 15px;
+
+.campo1{
 	
+	height: 20px;
+	width: 640px;
+	margin-left: 10px;
+	padding: 5px;
+	resize: none;
+	
+	text-align: left;	
 }
 
-div .comentario{
+.campo2{
+	
+	height: 20px;
+	width: 640px;
+	margin-left: 18px;
+	padding: 5px;
+	resize: none;
+	
+	text-align: left;
+}
+
+.comentario{
+
 	height: 150px;
-	width: 450px;
-
+	width: 650px;
+	margin-left: 96px;
+	resize: none;
+    padding-top: 5px;
+	
+	text-align: left;
 }
+
 form{
+	
 	text-align: left;
 	margin-left: 45px;
-	margin-top:10px;
+	margin-top: 10px;
 }
+
 form button{
+	
 	cursor: pointer;
-	 -moz-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
+	-moz-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
     -o-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
     -webkit-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
     text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 3px -1px black;	
 
-color:white;
-font-size:16px;
-font-family:Arial;
+	color:white;
+	font-size:16px;
+	font-family:Arial;
     background: #5b2423; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzViMjQyMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU0JSIgc3RvcC1jb2xvcj0iI2EzMWUxYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhMzFlMWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -930,13 +1114,11 @@ font-family:Arial;
     background: linear-gradient(to right,  #5b2423 0%,#a31e1a 54%,#a31e1a 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b2423', endColorstr='#a31e1a',GradientType=1 ); /* IE6-8 */
 
-	width:127px;
-	height:50px;
-    opacity: 0.8;/**/
+	width:105px;
+	height:40px;
     background-color:transparent;
+    margin-left: 95px;
 
-    
-   
     border-color:rgb(255,255,255);
     border-style:outset;
 }

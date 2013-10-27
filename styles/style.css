@@ -62,6 +62,7 @@ a:link,a:hover,a:visited,a:active {
 	color: #A31E1A;
 	margin-left: 310px;
 	margin-top: 512px;
+	padding: 0px;
 	z-index: -1;
 }
 
@@ -88,6 +89,7 @@ div#imag p{
 	color:rgb(101,200,232);
 	margin-left: 20px;
     margin-top: 90px;
+	padding: 0px;
     -moz-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
     -o-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
     -webkit-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
@@ -450,6 +452,7 @@ div#btnpedido2:hover{
 	color: #A31E1A;
 	margin-left: -25px;
 	margin-top: 145px;
+	padding: 0px;
 }
 
 #usuario{
@@ -534,6 +537,7 @@ div#btnpedido2:hover{
 	height: 18px;
 	margin-left: 70px;
 	margin-top: 5px;
+	padding: 0px;
 	color: #A31E1A;
 	font-family: Helvetica;
 	cursor: pointer;
@@ -638,7 +642,7 @@ header{
     background: url(../img/generales/arrows.png) no-repeat;
     cursor: pointer;
     margin-left: 110px;/**/
-    margin-top:-60px;
+    margin-top: -70px;
     opacity: .50;/**/
     position: absolute;
 }
@@ -678,6 +682,7 @@ header{
     font-size: 20px; /*=> 18ptos http://reeddesign.co.uk/test/points-pixels.html*/
 
 	margin-top: 45px;
+	margin-left: -80px;
 	position: relative;
 
 
@@ -877,6 +882,7 @@ p{
     text-align: justify;
     color: white;
 	text-indent: 40px;
+	padding: 0 2em;
 }
 
 #texto{
@@ -888,12 +894,14 @@ p{
 
 }
 #foto{
-    background-image:url(../img/promocion3.JPG);
-    vertical-align: top;
+    background-image:url(../img/fotoscentro/clasico1.png);
+    background-repeat: no-repeat;
     display: inline-block;
     height:230px;
     width:360px;
-
+    margin-top: 65px;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
 }
 
 /***************************FONDO CONOS****************************************************/
@@ -1055,7 +1063,7 @@ height: 100px;*/
     background-repeat:no-repeat;
 }
 #nav2 ul{
-	margin-top:30px;
+	margin-top:40px;
 }
 #nav2 ul li{
     display: inline-block;
@@ -1076,9 +1084,9 @@ div .divisor2{
 	width: 2px;
 	background-color: white;	
 }
-#derechos {
-	margin-top:-15px;
-	text-align: right;
+#derechos{
+	margin-top:-20px;
+	margin-left: 4px;
 	font-family: Arial;
 	font-size: 12px;
 	font-weight: bold;
@@ -1217,6 +1225,21 @@ div  h3{
 	font-size:28px;
 	margin:0 auto;
 	text-align: left;
+	/*position:relative;
+	top: 20px;*/
+	
+	-moz-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
+    -o-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
+    -webkit-text-shadow: 2px 1px 1px rgba(255,255,255,1);/*.5 es 50% de opacidad*/
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 5px -1px black;
+    filter: Shadow(Color=black, Direction=130, Strength=3); /* IE Proprietary Filter*/	
+}
+div  h4{
+	color:rgb(121,200,222);
+	font-family:"snap";
+	font-size:28px;
+	margin:0 auto;
+	text-align: center;
 	/*position:relative;
 	top: 20px;*/
 	

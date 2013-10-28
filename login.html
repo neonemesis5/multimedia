@@ -20,34 +20,69 @@ Remove this if you use the .htaccess -->
         <script type="text/javascript" src="scripts/jquery.min.js"></script>
    
         <script src="scripts/script.js"></script>   
-          <script type="text/javascript">
+        <script type="text/javascript">
 	
         $(document).ready(function() {        
             
-           $('#menup').click(function(){
-				$("#contenido").load('menup.html');
+        $('#menup').click(function(){
+			$("#contenido").load('menup.html');
 				/*$("#side1").load('s2.php');/**/
 				
-         });/**/
+        });/**/
         
         $('#contacto').click(function(){
-				$("#contenido").load('contacto.html');
+			$("#contenido").load('contacto.html');
 				/*$("#side1").load('s2.php');/**/
 				
-         });/**/
+        });/**/
+        
 		$('#sugerencia').click(function(){
-				$("#contenido").load('sugerencia.html');
-				/*$("#side1").load('s2.php');/**/
+			$("#contenido").load('sugerencia.html');
+			/*$("#side1").load('s2.php');/**/
 				
-          });
+        });
          /**/
+        
         $('#login').click(function(){
-				$("#contenido").load('login.html');
-				/*$("#side1").load('s2.php');/**/
+			$("#contenido").load('login.html');
+			/*$("#side1").load('s2.php');/**/
 				
-          });
-         /**/
+        });
+        /**/
 		  
+		  $('textarea').each(function(){
+   		  	// tomamos el valor actual del input
+			var currentValue = $(this).val();
+   			// en el focus() comparamos si es el mismo por defecto, y si es asi lo vaciamos
+   			$(this).focus(function(){
+      			if( $(this).val() == currentValue ) {
+         			$(this).val('');
+      			};
+   			});
+   			// en el blur, si el usuario dejo el value vacio, lo volvemos a restablecer
+   			$(this).blur(function(){
+      			if( $(this).val() == '' ) {
+         			$(this).val(currentValue);
+      			};
+   			});
+		  });
+		  
+		  $('input').each(function(){
+   		  	// tomamos el valor actual del input
+			var currentValue = $(this).val();
+   			// en el focus() comparamos si es el mismo por defecto, y si es asi lo vaciamos
+   			$(this).focus(function(){
+      			if( $(this).val() == currentValue ) {
+         			$(this).val('');
+      			};
+   			});
+   			// en el blur, si el usuario dejo el value vacio, lo volvemos a restablecer
+   			$(this).blur(function(){
+      			if( $(this).val() == '' ) {
+         			$(this).val(currentValue);
+      			};
+   			});
+		  });
 			
         });
 		
@@ -127,7 +162,7 @@ Remove this if you use the .htaccess -->
                             <li><a href="#">Sugerencia</a></li>
                         </ul>
                         <br />
-						<p id="derechos">©Cono Sur Pizza's-2013 Derechos Reservados</p> 
+						<p id="derechos">© Cono Sur Pizza's-2013 Derechos Reservados</p> 
                     </div>
                 </div>
             </div>
@@ -137,8 +172,8 @@ Remove this if you use the .htaccess -->
         	<div id="btnpedido2" onclick="window.location='index.html';">Pedido en línea</div>
         	<div id="cuenta">
         		<div class="triangulo"> </div>
-        		<textarea id="usuario" onblur="if(this.value==''){this.value='Correo Electronico'}" onfocus="if(this.value=='Correo Electronico'){this.value=''}">Correo Electronico</textarea>
-        		<input id="pass" type="password" value="Contraseña" onblur="if(this.value==''){this.value='Contraseña'}" onfocus="if(this.value=='Contraseña'){this.value=''}">
+        		<textarea id="usuario">Correo Electronico</textarea>
+        		<input id="pass" type="password" value="Contraseña">
         		<p>¿Olvido su Contraseña?</p>
         		<div id="Iniciar">Iniciar Sesión</div>
         		<div id="registro">

@@ -20,28 +20,44 @@ Remove this if you use the .htaccess -->
         <script type="text/javascript" src="scripts/jquery.min.js"></script>
    
         <script src="scripts/script.js"></script>   
-          <script type="text/javascript">
+        <script type="text/javascript">
 	
         $(document).ready(function() {        
             
-           $('#menup').click(function(){
+           	$('#menup').click(function(){
 				$("#contenido").load('menup.html');
 				/*$("#side1").load('s2.php');/**/
 				
-         });/**/
+         	});/**/
         
-        $('#contacto').click(function(){
+        	$('#contacto').click(function(){
 				$("#contenido").load('contacto.html');
 				/*$("#side1").load('s2.php');/**/
 				
-         });/**/
-		$('#sugerencia').click(function(){
+         	});/**/
+			$('#sugerencia').click(function(){
 				$("#contenido").load('sugerencia.html');
 				/*$("#side1").load('s2.php');/**/
 				
-          });
-         /**/
+          	});/**/
 		  
+			$('#menuf').click(function(){
+				$("#contenido").load('menup.html');
+				/*$("#side1").load('s2.php');/**/
+				
+         	});/**/
+        
+        	$('#contactof').click(function(){
+				$("#contenido").load('contacto.html');
+				/*$("#side1").load('s2.php');/**/
+				
+         	});/**/
+        
+        	$('#sugerenciaf').click(function(){
+				$("#contenido").load('sugerencia.html');
+				/*$("#side1").load('s2.php');/**/
+				
+         	});/**/
 			
         });
 		
@@ -82,12 +98,12 @@ Remove this if you use the .htaccess -->
             <div id="tituloprin"> <h2>Conocénos</h2> </div>
             <div id="texto">
                 <article>
-                    <h3> ¿Quiénes Somos?</h3>
-                    <p> Somos un grupo de personas dedicadas al descubrimiento de nuevos e interesantes sabores y presentaciones con la finalidad de dar a nuestros comenzales una experiencia unica.</p>
+                    <h3>¿Quiénes Somos?</h3>
+                    <p>Somos un grupo de personas dedicadas al descubrimiento de nuevos e interesantes sabores y presentaciones con la finalidad de dar a nuestros comenzales una experiencia unica.</p>
                     </article>
                 <article>
-                    <h3> Misión</h3>
-                    <p> Expresar en cada atencion y entrega, nuestra adnegada dedicacion a nuestra distinguida clientela asegurandoles dia a dia un producto saludable de maxima calidad en sus diferentes presentaciones y a unos excelentes precios.
+                    <h3>Misión</h3>
+                    <p>Expresar en cada atencion y entrega, nuestra adnegada dedicacion a nuestra distinguida clientela asegurandoles dia a dia un producto saludable de maxima calidad en sus diferentes presentaciones y a unos excelentes precios.
                     </p>
                     </article>
 
@@ -109,18 +125,18 @@ Remove this if you use the .htaccess -->
                 </div>
                 <div id="fder">
                     <div id="redes">
-                        <div class="fredes"><a href="#"><div id="facebook">Síguenos en Facebook</div></a></div>
-                        <div class="fredes"><a href="#"><div id="twitter">Síguenos en Twitter</div></a></div>
+                    	<div class="fredes"><a href="https://twitter.com/conosurpizza"><div id="twitter">Síguenos en Twitter</div></a></div>
+                        <div class="fredes"><a href="https://www.facebook.com/ConoSurPizzas"><div id="facebook">Síguenos en Facebook</div></a></div>
                     </div>
                     <div id="nav2">
                         <ul>
-                            <li><a href="#">Conócenos</a></li>
+                            <li><a href="index.html"><div id="conocenos2"> </div><div class="menuitem2">Conocénos</div></a></li>
                              <div class="divisor2"> </div>
-                            <li><a href="#">Menú</a></li>
+                            <li><a href="#" id="menuf"><div class="menuitem2">Menú</div></a></li>
  							 <div class="divisor2"> </div>
-                            <li><a href="#">Contáctanos</a></li>
+                            <li><a href="#" id="contactof"><div class="menuitem2">Contáctanos</div></a></li>
                              <div class="divisor2"> </div>
-                            <li><a href="#">Sugerencia</a></li>
+                            <li><a href="#" id="sugerenciaf"><div class="menuitem2">Sugerencia</div></a></li>
                         </ul>
                         <br />
 						<p id="derechos">© Cono Sur Pizza's-2013 Derechos Reservados</p> 

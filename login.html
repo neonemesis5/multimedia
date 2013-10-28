@@ -137,8 +137,8 @@ Remove this if you use the .htaccess -->
         	<div id="btnpedido2" onclick="window.location='index.html';">Pedido en línea</div>
         	<div id="cuenta">
         		<div class="triangulo"> </div>
-        		<textarea id="usuario">Correo Electronico</textarea>
-        		<textarea id="pass">Contraseña</textarea>
+        		<textarea id="usuario" onblur="if(this.value==''){this.value='Correo Electronico'}" onfocus="if(this.value=='Correo Electronico'){this.value=''}">Correo Electronico</textarea>
+        		<input id="pass" type="password" value="Contraseña" onblur="if(this.value==''){this.value='Contraseña'}" onfocus="if(this.value=='Contraseña'){this.value=''}">
         		<p>¿Olvido su Contraseña?</p>
         		<div id="Iniciar">Iniciar Sesión</div>
         		<div id="registro">

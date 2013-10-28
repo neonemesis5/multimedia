@@ -134,15 +134,15 @@ Remove this if you use the .htaccess -->
         		<div id="imag"><p>Regístrate</p></div>
         		<div id="X" onclick="window.location='index.html';">X</div>
         		<div id="W">Bienvenidos</div>
-        		<textarea class="reg1">Nombre</textarea>
-        		<textarea class="reg2">Apellido</textarea>
-        		<textarea class="reg3">Telefono</textarea>
-        		<textarea class="reg4">País</textarea>
-        		<textarea class="reg5">Estado</textarea>
-        		<textarea class="reg6">Dirección</textarea>
-        		<textarea class="reg7">Correo Electronico</textarea>
-        		<textarea class="reg8">Contraseña</textarea>
-        		<textarea class="reg9">Verificar Contraseña</textarea>
+        		<textarea class="reg1" onblur="if(this.value==''){this.value='Nombre'}" onfocus="if(this.value=='Nombre'){this.value=''}">Nombre</textarea>
+        		<textarea class="reg2" onblur="if(this.value==''){this.value='Apellido'}" onfocus="if(this.value=='Apellido'){this.value=''}">Apellido</textarea>
+        		<textarea class="reg3" onblur="if(this.value==''){this.value='Telefono'}" onfocus="if(this.value=='Telefono'){this.value=''}">Telefono</textarea>
+        		<textarea class="reg4" onblur="if(this.value==''){this.value='País'}" onfocus="if(this.value=='País'){this.value=''}">País</textarea>
+        		<textarea class="reg5" onblur="if(this.value==''){this.value='Estado'}" onfocus="if(this.value=='Estado'){this.value=''}">Estado</textarea>
+        		<textarea class="reg6" onblur="if(this.value==''){this.value='Dirección'}" onfocus="if(this.value=='Dirección'){this.value=''}">Dirección</textarea>
+        		<textarea class="reg7" onblur="if(this.value==''){this.value='Correo Electronico'}" onfocus="if(this.value=='Correo Electronico'){this.value=''}">Correo Electronico</textarea>
+        		<input class="reg8" type="password" value="Contraseña" onblur="if(this.value==''){this.value='Contraseña'}" onfocus="if(this.value=='Contraseña'){this.value=''}">
+        		<input class="reg9" type="password" value="Verificar Contraseña" onblur="if(this.value==''){this.value='Verificar Contraseña'}" onfocus="if(this.value=='Verificar Contraseña'){this.value=''}">
         		<p>Acepto los Terminos de Uso</p>
         		<div id="ready">Registrarme</div>
         		<input id="checkbox" type="checkbox"/>
